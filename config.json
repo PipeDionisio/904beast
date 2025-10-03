@@ -1,0 +1,18 @@
+{
+  "webhooks": {
+    "booking": "https://n8n.srv978135.hstgr.cloud/webhook/b6ec6d5f-461b-4a46-ae34-356447ae639d",
+    "mixing": "https://your-webhook-endpoint.com/mixing",
+    "file_upload": "https://your-webhook-endpoint.com/file-upload"
+  },
+  "app": {
+    "name": "904BEAST Studio Booking",
+    "timezone": "America/New_York",
+    "defaultDuration": 60,
+    "studioLocation": "123 Music Avenue, Jacksonville, FL 32202"
+  },
+  "integration": {
+    "type": "webhook",
+    "contentType": "application/json",
+    "note": "Standard webhook endpoints for automation platform integration"
+  }
+}
